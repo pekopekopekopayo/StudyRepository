@@ -24,6 +24,6 @@
 > **프로토콜이란**    
 > **TCP UDP IP란**    
 > **세션과 쿠키란**     
-> **3HandShak 4HandShak(추가 예정)**    
-> **HTTP HTTPS란(추가 예정)**      
+> **3WayHandShak 4WayHandShak**    
+> **HTTP HTTPS란**      
  
