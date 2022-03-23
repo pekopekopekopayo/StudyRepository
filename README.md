@@ -26,5 +26,6 @@
 > **세션과 쿠키란**     
 > **3WayHandShak 4WayHandShak**    
 > **HTTP HTTPS란**      
-> **Hash란**
+> **Hash란**    
+> **HTTP메소드란**
  
