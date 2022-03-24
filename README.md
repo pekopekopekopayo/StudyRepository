@@ -16,6 +16,9 @@
 > **Ruby**   
 > **JS**    
 
+## Framework
+> **Rails**    
+
 ## DB
 > **Index 원리(예정)**    
 
