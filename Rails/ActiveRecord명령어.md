@@ -1,6 +1,7 @@
-# new
+# new build
 > new는 한가지의 모델의 오브젝트를 생성한다. User.new, User.new(name: 'peko', type: 'human') 형식으로 선언 가능하다.     
-    
+> new vs build 둘다 똑같은 명령어다.
+
 # all
 > all은 그 모델의 모든 객체(레코드)를 반환한다. User.all과 같은 형식으로 선언 가능하다.      
      
@@ -54,3 +55,10 @@
 > User.all.order('name desc') 와 같이 사용하다.
 > 만약 User와 Phone이 1:1관계일때 User을 Phone번호로 order할 경우에는
 > User.all.order(phone.phone_number)과 같이 정렬도 가능하다.
+
+# valid?
+> 현재 객체의 모든 컬럼들이 유효한가(바리데이션 체크에서 에러가 안 일어났나)를 true false로 반환한다.
+
+
+# reload
+> 현재 객체를 최신화 시킨다. (다시 한번 DB를 참조하여서 저장된 레코더를 맵핑시켜준다.)
