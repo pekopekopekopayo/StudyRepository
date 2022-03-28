@@ -2,8 +2,8 @@
 
 ## MVC패턴
 
-> Rails는 M(모델)V(뷰)C(컨트롤러)패턴을 사용한다.  
-> Model DB의 테이블 또는 사용 할 객체를 만들기 위해 Class파일을 정의 하는 곳  
+> Rails는 M(Model)V(View)C(Controller)패턴을 사용한다.  
+> Model DB의 테이블을 Class로 정의하여 실제적으로 DB와 맵핑이 일어나는 곳  
 > View 프론트를 정의한 곳이다.(html)  
 > Controller 비즈니스 로직(요청이 왔으면 그것을 처리하는곳)을 처리하는 곳 이다.  
 > M <==> C <==> V  
